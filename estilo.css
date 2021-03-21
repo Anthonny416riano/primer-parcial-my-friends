@@ -1,0 +1,615 @@
+body {
+    color: #7D7D7D;
+    font-family: 'Poppins', sans-serif;
+}
+aside#menu-cortina {
+    display: none;
+}
+header {
+    width: 100%;
+    height: 100px;
+    display: block;
+    position: fixed;
+    float: none;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px 3px rgb(0 0 0 / 10%)
+}
+header article {
+    width: 75%;
+    height: 100px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+header article a {
+    width: 90px;
+    height: 90px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 5px auto;
+}
+header article a img {
+    width: 100%;
+    height: auto;
+}
+header article nav#menu-principal {
+    width: 588px;
+    height: 60px;
+    display: block;
+    position: relative;
+    float: right;
+    margin: 20px auto;
+}
+header article nav#menu-principal a {
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+main {
+    margin-top: 100px ;
+}
+main section#fila-banner {
+    width: 100%;
+    height: 450px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#fila-banner article {
+    width: 100%;
+    height: 450px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+    background: url(img/fondo1.jpg) no-repeat top center;
+    background-size: cover;
+}
+main section#fila-banner article div {
+    width: 60%;
+    height: 150px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+    padding: 150px;
+}
+main section#fila-banner article div h1 {
+    color: #fff;
+    font-weight: 300;
+    text-shadow: 6px 8px 10px rgba(127,112,112,0.34);
+    text-align: center;
+    font-size: 2em;
+    margin: .67em 0;
+    padding-top: 30px;
+}
+
+main section#perros-salvajes {
+    width: 100%;
+    height: 860px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#perros-salvajes article {
+    width: 80%;
+    height: 860px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#perros-salvajes article div {
+    width: 100%;
+    height: 60px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#perros-salvajes article div h2 {
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 30px;
+}
+main section#perros-salvajes article figure {
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#perros-salvajes article figure a {
+    width: 20%;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    padding: 0 24px;
+    text-decoration: none;
+}
+main section#perros-salvajes article figure a img {
+    width: 100%;
+}
+main section#perros-salvajes article figure a span.titulo-producto {
+    color: #474747;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+main section#perros-salvajes article figure a span.descrip-producto {
+    color: #707070;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+main section#perros-salvajes article figure a span.precio {
+    color: #ff0000;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+main section#hamburguesas {
+    width: 100%;
+    height: 860px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#hamburguesas article {
+    width: 80%;
+    height: 860px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#hamburguesas article div {
+    width: 100%;
+    height: 60px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#hamburguesas article div h2 {
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 30px;
+}
+main section#hamburguesas article figure {
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#hamburguesas article figure a {
+    width: 20%;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    padding: 0 24px;
+    text-decoration: none;
+}
+main section#hamburguesas article figure a img {
+    width: 100%;
+}
+main section#hamburguesas article figure a span.titulo-producto {
+    color: #474747;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+main section#hamburguesas article figure a span.descrip-producto {
+    color: #707070;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+main section#hamburguesas article figure a span.precio {
+    color: #ff0000;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+main section#combos {
+    width: 100%;
+    height: 860px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#combos article {
+    width: 80%;
+    height: 860px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#combos article div {
+    width: 100%;
+    height: 60px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#combos article div h2 {
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 30px;
+}
+main section#combos article figure {
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#combos article figure a {
+    width: 20%;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    padding: 0 24px;
+    text-decoration: none;
+}
+main section#combos article figure a img {
+    width: 100%;
+}
+main section#combos article figure a span.titulo-producto {
+    color: #474747;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+main section#combos article figure a span.descrip-producto {
+    color: #707070;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+main section#combos article figure a span.precio {
+    color: #ff0000;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+main section#salchipapa {
+    width: 100%;
+    height: 860px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#salchipapa article {
+    width: 80%;
+    height: 860px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#salchipapa article div {
+    width: 100%;
+    height: 60px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#salchipapa article div h2 {
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 30px;
+}
+main section#salchipapa article figure {
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#salchipapa article figure a {
+    width: 20%;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    padding: 0 24px;
+    text-decoration: none;
+}
+main section#salchipapa article figure a img {
+    width: 100%;
+}
+main section#salchipapa article figure a span.titulo-producto {
+    color: #474747;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+main section#salchipapa article figure a span.descrip-producto {
+    color: #707070;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+main section#salchipapa article figure a span.precio {
+    color: #ff0000;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+    background-color: #000;
+}
+footer article {
+    width: 78%;
+    height: 200px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+footer article a {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+    margin: 0;
+    float: left;
+}
+footer article a img {
+    width: 87%;
+}
+footer article nav#redes-footer {
+    width: 200px;
+    height: auto;
+    display: block;
+    position: relative;
+    float: right;
+    margin: 0;
+}
+footer article nav#redes-footer a {
+    width: auto;
+    height: auto;
+    padding: 0 19px;
+    padding-top: 90px;
+}
+footer article nav#redes-footer a i {
+    color: #fff;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    /*Botónes abrir y cerrar*/
+    aside#menu-cortina {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 9999999;
+        background: rgba(185, 185, 185, 0.79);
+    }
+    aside#menu-cortina a#abrir {
+        width: 81px;
+        height: 45px;
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: -80px;
+        transition: all 0.3s ease-in;
+    }
+    aside#menu-cortina a#abrir i{
+        width: 25px;
+        height: 20px;
+        display: block;
+        line-height: 1em;
+        font-size: 1.55em;
+        text-align: center;
+        padding: 0;
+        margin: 12px 12px 12px 12px;
+        float: left;
+        color: #909090;
+        transition: all 0.3s ease-in;
+    }
+    aside#menu-cortina a#abrir:hover { color: #c4c4c4; transition: all 0.15s ease-out }
+    aside#menu-cortina a#abrir i:hover { color: #c4c4c4; transition: all 0.15s ease-out }
+    aside#menu-cortina a#cerrar {
+        width: 45px;
+        height: 35px;
+        display: block;
+        margin: 5px 5px 0 5px;
+        float: left;
+        position: relative;
+        text-decoration: none;
+        transition: all 0.3s ease-in;
+    }
+    aside#menu-cortina a#cerrar i {
+        width: 100%;
+        height: 25px;
+        display: block;
+        margin: 0 auto;
+        float: none;
+        position: relative;
+        text-align: center;
+        color: #909090;
+        padding: 5px 0 0 0;
+        transition: all 0.3s ease-in;
+    }
+    aside#menu-cortina a#cerrar:hover { color: #909090; transition: all 0.15s ease-out }
+    aside#menu-cortina a#cerrar i:hover { color: #909090; transition: all 0.15s ease-out }
+    aside#menu-cortina nav#menu-principal-movil {
+    width: 80%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 170px auto;
+    }
+    aside#menu-cortina nav#menu-principal-movil a {
+    width: 200px;
+    height: 38px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 2em;
+    color: #000;
+    }
+
+    header article a {
+        float: none;
+        }
+    header article nav#menu-principal {
+        display: none;
+    }
+    main section#perros-salvajes {
+        height: auto;
+    }
+    main section#perros-salvajes article {
+        height: auto;
+    }
+    main section#perros-salvajes article figure {
+        height: auto;
+    }
+    main section#perros-salvajes article figure a {
+        width: 100%;
+        height: 360px;
+        padding: 0;
+        padding-top: 20px;
+        float: none;
+    }
+    main section#hamburguesas {
+        height: auto;
+    }
+    main section#hamburguesas article {
+        height: auto;
+    }
+    main section#hamburguesas article figure {
+        height: auto;
+    }
+    main section#hamburguesas article figure a {
+        width: 100%;
+        height: 360px;
+        padding: 0;
+        padding-top: 20px;
+        float: none;
+    }
+    main section#combos {
+        height: auto;
+    }
+    main section#combos article {
+        height: auto;
+    }
+    main section#combos article figure {
+        height: auto;
+    }
+    main section#combos article figure a {
+        width: 100%;
+        height: 370px;
+        padding: 0;
+        padding-top: 20px;
+        float: none;
+    }
+    main section#salchipapa {
+        height: auto;
+    }
+    main section#salchipapa article {
+        height: auto;
+    }
+    main section#salchipapa article figure {
+        height: auto;
+    }
+    main section#salchipapa article figure a {
+        width: 100%;
+        height: 270px;
+        padding: 0;
+        padding-top: 20px;
+        float: none;
+    }
+    
+
+
+
+
+    footer {
+        height: 260px;
+        }
+        footer article {
+        height: auto;
+        }
+        footer article a {
+        float: none;
+        margin: 0 auto;
+        }
+       
+        footer article nav#redes-footer {
+        height: 50px;
+        float: none;
+        margin: 0 auto;
+        }
+        footer article nav#redes-footer a {
+            text-align: center;
+            padding: 0 24px;
+            float: left;
+        }
+}
